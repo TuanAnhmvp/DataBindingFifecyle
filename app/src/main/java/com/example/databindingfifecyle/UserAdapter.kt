@@ -3,10 +3,11 @@ package com.example.databindingfifecyle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.databindingfifecyle.databinding.ItemRevDatabindingBinding
+import com.example.databindingfifecyle.databinding.UserItemBinding
+
 
 class UserAdapter: RecyclerView.Adapter<UserAdapter.UserViewHolder>(){
-    class UserViewHolder(private val userItemBinding:ItemRevDatabindingBinding):RecyclerView.ViewHolder(userItemBinding.root){
+    class UserViewHolder(private val userItemBinding: UserItemBinding):RecyclerView.ViewHolder(userItemBinding.root){
 
         fun onBind(user: User){
             userItemBinding.user = user
@@ -21,7 +22,7 @@ class UserAdapter: RecyclerView.Adapter<UserAdapter.UserViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        val userItemBinding = ItemRevDatabindingBinding.inflate(inflater, parent, false)
+        val userItemBinding = UserItemBinding.inflate(inflater, parent, false)
         return UserViewHolder(userItemBinding)
     }
 

@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.example.databindingfifecyle.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class   MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding:ActivityMainBinding =
