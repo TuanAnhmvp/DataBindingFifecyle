@@ -3,12 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_Studio/TryhardKotlin/DataBindingFifecyle/app/src/main/res/layout/activity_data_bin_vmactivity.xml" value="0.2" />
         <entry key="..\:/Android_Studio/TryhardKotlin/DataBindingFifecyle/app/src/main/res/layout/activity_data_binding.xml" value="0.25364583333333335" />
         <entry key="..\:/Android_Studio/TryhardKotlin/DataBindingFifecyle/app/src/main/res/layout/activity_databinding_rec_view.xml" value="0.2" />
         <entry key="..\:/Android_Studio/TryhardKotlin/DataBindingFifecyle/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Android_Studio/TryhardKotlin/DataBindingFifecyle/app/src/main/res/layout/item_rev_databinding.xml" value="0.2" />
         <entry key="..\:/Android_Studio/TryhardKotlin/DataBindingFifecyle/app/src/main/res/layout/item_rev_databinding_viewmodel.xml" value="0.176" />
-        <entry key="..\:/Android_Studio/TryhardKotlin/DataBindingFifecyle/app/src/main/res/layout/user_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/Android_Studio/TryhardKotlin/DataBindingFifecyle/app/src/main/res/layout/user_item.xml" value="0.176" />
         <entry key="..\:/Android_Studio/TryhardKotlin/DataBindingFifecyle/app/src/main/res/layout/user_item_databinding.xml" value="0.25052083333333336" />
       </map>
     </option>

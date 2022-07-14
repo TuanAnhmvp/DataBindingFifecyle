@@ -2,10 +2,10 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-        <import type="com.example.databindingfifecyle.User"/>
+        <import type="com.example.databindingfifecyle.recv.User"/>
         <variable
             name="user"
-            type="User" />
+            type="com.example.databindingfifecyle.recv.User" />
 
     </data>
 
@@ -17,6 +17,7 @@
 
 <!--        <ImageView-->
 <!--            android:id="@+id/item_image_rev"-->
+<!--            android:scaleType="fitXY"-->
 <!--            android:src="@{user.userImage}"-->
 <!--            android:layout_width="100dp"-->
 <!--            android:layout_height="100dp" />-->

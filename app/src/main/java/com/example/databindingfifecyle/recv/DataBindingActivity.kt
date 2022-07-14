@@ -1,9 +1,10 @@
-package com.example.databindingfifecyle
+package com.example.databindingfifecyle.recv
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.databindingfifecyle.R
 import com.example.databindingfifecyle.databinding.ActivityDataBindingBinding
 
 class DataBindingActivity : AppCompatActivity() {
@@ -25,8 +26,8 @@ class DataBindingActivity : AppCompatActivity() {
 
     private fun createData(): MutableList<User>{
         val users = mutableListOf<User>()
-        users.add(User(R.drawable.one, "tuananh1", 20))
-        users.add(User(R.drawable.two, "tuananh2", 20))
+        users.add(User(R.drawable.iconcb, "tuananh1", 20))
+        users.add(User(R.drawable.iconnocb, "tuananh2", 20))
         users.add(User(R.drawable.three, "tuananh3", 20))
         users.add(User(R.drawable.four, "tuananh4", 20))
         users.add(User(R.drawable.five, "tuananh5", 20))

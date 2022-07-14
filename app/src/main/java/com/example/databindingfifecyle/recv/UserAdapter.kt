@@ -1,4 +1,4 @@
-package com.example.databindingfifecyle
+package com.example.databindingfifecyle.recv
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
