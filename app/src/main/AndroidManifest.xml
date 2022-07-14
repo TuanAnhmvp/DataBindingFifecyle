@@ -14,23 +14,25 @@
         android:theme="@style/Theme.DataBindingFifecyle"
         tools:targetApi="31">
         <activity
-            android:name=".dataBViewModel.DataBinVMActivity"
+            android:name=".custom.CustomActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
-            android:name=".recv.DataBindingActivity"
+            android:name=".dataBViewModel.DataBinVMActivity"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".sum.MainActivity"
+            android:name=".recv.DataBindingActivity"
             android:exported="true"></activity>
+        <activity
+            android:name=".sum.MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

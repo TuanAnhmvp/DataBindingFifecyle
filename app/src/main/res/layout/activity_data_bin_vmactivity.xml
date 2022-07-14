@@ -10,9 +10,6 @@
             name="viewModel"
             type="UserViewModel" />
 
-        <variable
-            name="age"
-            type="Integer" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
